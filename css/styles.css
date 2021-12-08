@@ -184,7 +184,7 @@ p > a:visited
 {
 	position: absolute;
 	top: 330px;
-	right: 856px;
+	right: 805px;
 }
 
 ul 
@@ -225,4 +225,46 @@ footer
 {
 	position: absolute;
 	bottom: 0;
+}
+
+div.container
+{
+	width:80%;
+	margin: 0px auto;
+	background-color:#ffeaa9;
+}
+
+label
+{
+	display:inline-block;
+    width:25%;
+}
+
+#formData
+{
+	font-size: 3em;
+}
+   
+p.checkbox label
+{
+	display:inline;
+}
+
+#sub
+{
+	width: 6em;
+	height: 3em;
+	position: relative;
+	left: 715px;
+}
+
+#sub:hover
+{
+	color: blue;
+	background-color: #c2d1ff;
+}
+
+#sub:click
+{
+	background-color: blue;
 }
