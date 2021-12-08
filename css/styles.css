@@ -263,8 +263,3 @@ p.checkbox label
 	color: blue;
 	background-color: #c2d1ff;
 }
-
-#sub:click
-{
-	background-color: blue;
-}
