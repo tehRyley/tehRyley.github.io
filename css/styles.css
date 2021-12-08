@@ -132,36 +132,20 @@ header
 
 #products
 {
-	position: relative;
-	top: -20px;
-	margin-top: -100px;
+	position: absolute;
+	top: 100px;
+	left: 300px;
 	width: auto;
 	height: 300px;
-	margin-left: -17px;
 }
 
 #about
 {
-	position: relative;
-	top: -20px;
-	margin-top: -200px;
+	position: absolute;
+	top: 200px;
+	right: 300px;
 	width: auto;
 	height: 150px;
-	margin-left: -23px;
-}
-
-.container
-{
-  position: relative;
-  width: 5%;
-  left: 516px;
-}
-
- .container2
-{
-  position: relative;
-  width: 15%;
-  left: 1123px;
 }
 
 .image
@@ -175,43 +159,6 @@ a:visited
 {
 	color: white;
 	text-decoration: none;
-}
-.overlay 
-{
-  position: absolute;
-  top: -12px;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 285px;
-  width: 195px;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: rgb(80,101,168);
-}
-
-.container:hover .overlay 
-{
-  opacity: .60;
-}
-
-.overlay2 
-{
-  position: absolute;
-  top: -26px;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 160px;
-  width: 235px;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: rgb(80,101,168);
-}
-
-.container2:hover .overlay2
-{
-  opacity: .60;
 }
 
 .text 
